@@ -5,17 +5,15 @@
   
 //   process.stdout.write('You typed:' + cmd);
 //   process.stdout.write('\nprompt > ');
-  function pwd(){
-    if (cmd === 'pwd'){
-      process.stdout.write(`${process.cwd()}`)
-    }
-  }
+  // function pwd(){
+  //   if (cmd === 'pwd'){
+  //     process.stdout.write(`${process.cwd()}`)
+  //   }
+  // }
  
   
 // })
 
 module.exports =     function pwd(){
-  if (cmd === 'pwd'){
-    process.stdout.write(`${process.cwd()}`)
-  }
-}
+  
+process.stdout.write(`${process.cwd()}`)}
